@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Luxury Spa
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_luxury_spa_header">
+            <key name="luxury_spa_header_top_line_short_info" />
+            <key name="luxury_spa_header_top_line_donations_but_text" />
+            <key name="luxury_spa_header_donations_but_text" />
+            <key name="luxury_spa_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_luxury_spa_footer">
+            <key name="luxury_spa_footer_html" />
+            <key name="luxury_spa_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_luxury_spa_single_project">
+            <key name="luxury_spa_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_luxury_spa_single_profile">
+            <key name="luxury_spa_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+
