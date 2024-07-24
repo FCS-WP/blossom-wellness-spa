@@ -1,6 +1,6 @@
 "use strict";
 
-var nameFolderTheme = "robeto-child";
+var nameFolderTheme = "zippy-child";
 var gulp = require("gulp");
 var destFolder = "src/wp-content/themes/" + nameFolderTheme + "/assets/main";
 
