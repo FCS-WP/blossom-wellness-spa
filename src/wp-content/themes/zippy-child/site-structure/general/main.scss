@@ -6,3 +6,194 @@
 @import "animation";
 @import "buttons";
 @import "_additional";
+
+
+.nav>li.header-divider{
+    border-left: 1px solid #FFF;
+}
+
+.footer-1{
+  text-align: center;
+}
+.footer-1 img{
+	width: 250px;
+}
+.footer_custom_html {
+  line-height: 34px;
+  color: rgba(255,255,255,0.4);
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+.footer_custom_html  a{
+  color: rgba(255,255,255,0.6) !important;
+}
+
+.container-about-us-section img{
+  height: 100% !important;
+}
+.container-about-us-section {
+  height: 795px !important;
+}
+.about-us-section-col-left{
+  height: 100% !important;
+}
+
+.welcome-home-section h6{
+  font-size: 16px;
+    line-height: 28px;
+    color: #c0b7af;
+	font-weight: normal;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.welcome-home-section h2{
+	margin-bottom: 35px; 
+	font-size: 32px !important;
+	font-weight: normal;
+}
+.welcome-home-section p{
+	    color: #6a6560 !important;
+    font-size: 16px;
+    line-height: 28px;
+}
+.button.primary{
+	 font-size: 11px;
+   line-height: 45px;
+   padding-right: 38px;
+   padding-left: 38px;
+}
+.section-banner-home h6{
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+.section-banner-home h2{
+	font-size: 36px !important;
+	font-weight: normal !important;
+	margin-bottom: 30px;
+}
+.service-section-home h2{
+	color: #2d2a27 !important;
+	font-size:24px;
+	font-weight: normal;
+
+}
+.button.primary.is-outline{
+	line-height: 45px;
+    padding-right: 38px;
+    padding-left: 38px;
+    border-width: 1px;
+    background-color: #ffffff;
+    color: #2d2a27;
+    border-color: #e0dddd;
+}
+.box-text-inner h4{
+	letter-spacing: 3px !important;
+	font-weight: normal;
+}
+.text.box-service{
+
+	margin-bottom: 20px;
+}
+.text.box-service h3{
+	font-weight: normal;
+	font-size: 24px;
+	color: black;
+	margin-bottom: 15px;
+}
+.text.box-service p{
+	font-size: 16px;
+	color: black !important;
+	min-height: 56px;
+}
+.price-box-service{
+	font-size: 14px !important;
+	margin-bottom: 0px;
+}
+.price-box-service span{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #b8a48d;
+	
+}
+.line-bottom{
+	display: block;
+	width: 200px;
+	height: 1px;
+	background: #d8d3d2;
+	margin: 0 auto;
+}
+.border-bottom-row {
+	border-bottom: 1px solid #d8d3d2;
+	margin-bottom: 50px;
+}
+.title-invidial-product-page .product-title,.title-invidial-product-page .woocommerce-breadcrumb a,.title-invidial-product-page .divider{
+	color: white
+}
+.woocommerce-Tabs-panel p{
+	color: black;
+}
+.form-contact input,.form-contact textarea{
+	background: none;
+}
+.product_meta>span{
+	border: none;
+	padding: 0 !important;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.product_meta, .product-page-price{
+	margin-bottom: 0px;
+}
+.product_meta>span a{
+	color: #b8a48d
+}
+.shop-page-title, .archive #main{
+	background: #f7f4f0;
+}
+.box-text.box-text-products{
+	background: #FFF;
+}
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link{
+	font-size: 18px;
+	color: black !important;
+}
+.title-wrapper{
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 10px;
+}
+.title-wrapper .category{
+	font-size: 12px;
+	color: #000;
+}
+@media(min-width: 1024px){
+	.text.box-service p{
+		padding: 0 25px;
+	}
+	.section-banner-home .slider-wrapper{
+transform: translatey(50px);
+}
+}
+@media(max-width: 700px){
+	.button.primary {
+    font-size: 11px;
+    line-height: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+	}
+	.section-banner-home h6 {
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+	.section-banner-home h2 {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    margin-bottom: 30px;
+    }
+}
