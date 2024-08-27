@@ -1,11 +1,9 @@
-@import "mixins";
 
 // @import "fonts";
 @import "variables";
-
 @import "animation";
 @import "buttons";
-@import "_additional";
+@import "additional";
 
 
 .nav>li.header-divider{
